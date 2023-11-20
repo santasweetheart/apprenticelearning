@@ -1,0 +1,200 @@
+/* sets up div for links at top of screen */
+.links {
+    background-color:orange;
+    text-align: center;
+    padding: 10px;
+}
+
+/* format header div at top of page */
+.topSection {
+    text-align: center;
+    background-color: #8B0000;
+    color: white;
+    height: 400px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+/* add space btwn the top links to make it more readable */
+.topLink {
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    margin: 80px;
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+/* add border to table */
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    /* top right bottom left */
+    padding: 5px 10px 5px 10px;
+}
+
+.sketches {
+    display: flex;
+}
+
+.sketch {
+    flex: 1;
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+}
+
+.finalSketch {
+    flex: 1;
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+
+.image {
+    width: 100%;
+}
+
+.finalVis {
+    width: 100%;
+    /* allows scrolling when part of viz is out of screen */
+    overflow: scroll;
+}
+
+.finalVisInner {
+    width: 1460px;
+    height: 904px;
+    background-color: white;
+
+}
+
+#Map {
+    width: 550px;
+    height: 902px;
+    float: left;
+    background-color: white;
+    border-right: 3px solid lightgrey;
+    padding-left: 5px;
+    padding-right: 15px;
+
+}
+
+/* fillers - for increasing the spacing between charts */
+#filler1 {
+    width: 40px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+
+#filler2 {
+    width: 40px;
+    height: 300px;
+    background-color: white;
+    float: left;
+}
+
+#filler3 {
+    width: 700px;
+    height: 60px;
+    background-color: white;
+    float: left;
+}
+
+#filler4 {
+    width: 90px;
+    height: 50px;
+    background-color: white;
+    float: left;
+}
+
+#pieChart {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: white;
+
+}
+
+#wordCloud {
+    width: 500px;
+    height: 300px;
+    float: left;
+    background-color: white;
+
+}
+
+#bubbleChart {
+    width: 802px;
+    height: 500px;
+    float: left;
+    /* removes automatic hover effect over bubbles */
+    pointer-events: none;
+    background-color: white;
+
+
+}
+
+/* white background behind each section */
+.white {
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* prevents inadvertent hover effects inside brush */
+#schoolNames2 {
+    pointer-events: none;
+}
+
+/* prevents inadvertent hover effects inside brush */
+#neighborhoodNamesGroup {
+    pointer-events: none;
+}
+
+/* increases checkbox size */
+input[type=checkbox] {
+    zoom: 1.2;
+    border: 1px solid black;
+}
+
+/* checkboxes to center of page */
+.checkboxes {
+    background-color: orange;
+    width: 300px;
+    border-radius: 3px;
+    padding: 6px 11px;
+    margin: auto;
+    left: 50%;
+}

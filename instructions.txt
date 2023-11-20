@@ -1,0 +1,19 @@
+To run this visualization locally on your computer:
+1. Download VS Code (https://code.visualstudio.com/)
+2. Once VS Code is downloaded, download Live Server (https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+3. Open the folder this file is in in VS Code. On the left bar, you should see all the files in this folder.
+4. Right click on index.html and click "Open with Live Server." This should open a new window in your browser with this webpage.
+5. Make any edits you want to the visualization, save your edits, and they should appear in the webpage.
+
+Files:
+index.html is the main webpage
+index.css contains all the css for our webpage (deals with formatting the webpage, makes it look pretty)
+index.js contains the D3 code for our visualization
+A2_Demo_Video.mp4 is our demo video for our visualizaiton
+data folder:
+- careerChat.csv contains cleaned survey data from the career chat surveys
+- ethinicities.csv contains the names and races of students in the CSI program
+- schools.csv contains the schools that students in the CSI program attend and their locations
+- strengthsGained.csv contains clearned survey data from the post-CSI internship survey
+- studentdata21.csv contains demographic data from CSI's 2021 session
+images folder: contains images of all of our sketches as well as the background picture for our webpage.
